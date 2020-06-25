@@ -1,0 +1,43 @@
+{
+  "name": "bloc-snippets",
+  "displayName": "Bloc Snippets",
+  "description": "Dart snippets for the Bloc state management library.",
+  "version": "1.0.0",
+  "publisher": "zepfietje",
+  "author": {
+    "name": "Zep Fietje",
+    "email": "hey@zepfietje.com",
+    "url": "https://zepfietje.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/zepfietje/vscode-bloc-snippets",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zepfietje/vscode-bloc-snippets"
+  },
+  "bugs": {
+    "url": "https://github.com/zepfietje/vscode-bloc-snippets/issues"
+  },
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "keywords": [
+    "dart",
+    "flutter",
+    "angulardart",
+    "bloc",
+    "state-management"
+  ],
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "dart",
+        "path": "snippets.json"
+      }
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "BlocProvider": {
+    "prefix": "bloc-provider",
+    "body": [
+      "BlocProvider(",
+      "\tcreate: (context) => ${1:Subject}Bloc(),",
+      "\tchild: ${2:Container()},",
+      ")"
+    ]
+  },
+  "MultiBlocProvider": {
+    "prefix": "multi-bloc-provider",
+    "body": [
+      "MultiBlocProvider(",
+      "\tproviders: [",
+      "\t\tBlocProvider(",
+      "\t\t\tcreate: (context) => ${1:Subject}Bloc(),",
+      "\t\t),",
+      "\t\tBlocProvider(",
+      "\t\t\tcreate: (context) => ${2:Subject}Bloc(),",
+      "\t\t),",
+      "\t],",
+      "\tchild: ${3:Container()},",
+      ")"
+    ]
+  },
+  "RepositoryProvider": {
+    "prefix": "repository-provider",
+    "body": [
+      "RepositoryProvider(",
+      "\tcreate: (context) => ${1:Subject}Repository(),",
+      "\tchild: ${2:Container()},",
+      ")"
+    ]
+  },
+  "MultiRepositoryProvider": {
+    "prefix": "multi-repository-provider",
+    "body": [
+      "MultiRepositoryProvider(",
+      "\tproviders: [",
+      "\t\tRepositoryProvider(",
+      "\t\t\tcreate: (context) => ${1:Subject}Repository(),",
+      "\t\t),",
+      "\t\tRepositoryProvider(",
+      "\t\t\tcreate: (context) => ${2:Subject}Repository(),",
+      "\t\t),",
+      "\t],",
+      "\tchild: ${3:Container()},",
+      ")"
+    ]
+  },
+  "BlocBuilder": {
+    "prefix": "bloc-builder",
+    "body": [
+      "BlocBuilder<${1:Subject}Bloc, $1State>(",
+      "\tbuilder: (context, state) {",
+      "\t\treturn ${3:Container()};",
+      "\t},",
+      ")"
+    ]
+  },
+  "BlocListener": {
+    "prefix": "bloc-listener",
+    "body": [
+      "BlocListener<${1:Subject}Bloc, $1State>(",
+      "\tlistener: (context, state) {",
+      "\t\t${2:// TODO: implement listener}",
+      "\t},",
+      "\tchild: ${3:Container()},",
+      ")"
+    ]
+  },
+  "MultiBlocListener": {
+    "prefix": "multi-bloc-listener",
+    "body": [
+      "MultiBlocListener(",
+      "\tlisteners: [",
+      "\t\tBlocListener<${1:Subject}Bloc, $1State>(",
+      "\t\t\tlistener: (context, state) {",
+      "\t\t\t\t${2:// TODO: implement listener}",
+      "\t\t\t},",
+      "\t\t),",
+      "\t\tBlocListener<${3:Subject}Bloc, $3State>(",
+      "\t\t\tlistener: (context, state) {",
+      "\t\t\t\t${4:// TODO: implement listener}",
+      "\t\t\t},",
+      "\t\t),",
+      "\t],",
+      "\tchild: ${5:Container()},",
+      ")"
+    ]
+  },
+  "BlocConsumer": {
+    "prefix": "bloc-consumer",
+    "body": [
+      "BlocConsumer<${1:Subject}Bloc, $1State>(",
+      "\tlistener: (context, state) {",
+      "\t\t${2:// TODO: implement listener}",
+      "\t},",
+      "\tbuilder: (context, state) {",
+      "\t\treturn ${3:Container()};",
+      "\t},",
+      ")"
+    ]
+  },
+  "context<SubjectBloc>.bloc()": {
+    "prefix": "bloc",
+    "body": "context.bloc<${1:Subject}Bloc>()"
+  },
+  "context.repository<SubjectRepository>()": {
+    "prefix": "repository",
+    "body": "context.repository<${1:Subject}Repository>()"
+  },
+  "BlocDelegate": {
+    "prefix": "bloc-delegate",
+    "body": [
+      "import 'package:bloc/bloc.dart';",
+      "",
+      "class ${1:My}BlocDelegate extends BlocDelegate {",
+      "\t@override",
+      "\tvoid onEvent(Bloc bloc, Object event) {",
+      "\t\tsuper.onEvent(bloc, event);",
+      "\t\t${2:// TODO: implement onEvent}",
+      "\t}",
+      "",
+      "\t@override",
+      "\tvoid onError(Bloc bloc, Object error, StackTrace stacktrace) {",
+      "\t\tsuper.onError(bloc, error, stacktrace);",
+      "\t\t${3:// TODO: implement onError}",
+      "\t}",
+      "",
+      "\t@override",
+      "\tvoid onTransition(Bloc bloc, Transition transition) {",
+      "\t\tsuper.onTransition(bloc, transition);",
+      "\t\t${4:// TODO: implement onTransition}",
+      "\t}",
+      "}"
+    ]
+  }
+}
