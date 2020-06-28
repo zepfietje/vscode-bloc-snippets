@@ -2,7 +2,7 @@
   "name": "bloc-snippets",
   "displayName": "Bloc Snippets",
   "description": "Dart snippets for the Bloc state management library.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "zepfietje",
   "author": {
     "name": "Zep Fietje",
@@ -25,7 +25,6 @@
   "keywords": [
     "dart",
     "flutter",
-    "angulardart",
     "bloc",
     "state-management"
   ],
