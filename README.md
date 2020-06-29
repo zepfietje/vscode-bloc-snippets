@@ -16,19 +16,19 @@ $ code --install-extension zepfietje.bloc-snippets
 
 ## Usage
 
-| Trigger                   | Description                               |
-| ------------------------- | ----------------------------------------- |
-| bloc-provider             | `BlocProvider` widget                     |
-| multi-bloc-provider       | `MultiBlocProvider` widget                |
-| repository-provider       | `RepositoryProvider` widget               |
-| multi-repository-provider | `MultiRepositoryProvider` widget          |
-| bloc-builder              | `BlocBuilder` widget                      |
-| bloc-listener             | `BlocListener` widget                     |
-| multi-bloc-listener       | `MultiBlocListener` widget                |
-| bloc-consumer             | `BlocConsumer` widget                     |
-| bloc                      | `context<SubjectBloc>.bloc()`             |
-| repository                | `context.repository<SubjectRepository>()` |
-| bloc-observer             | `BlocObserver` class                      |
+| Trigger                 | Description                               |
+| ----------------------- | ----------------------------------------- |
+| blocprovider            | `BlocProvider` widget                     |
+| multiblocprovider       | `MultiBlocProvider` widget                |
+| repositoryprovider      | `RepositoryProvider` widget               |
+| multirepositoryprovider | `MultiRepositoryProvider` widget          |
+| blocbuilder             | `BlocBuilder` widget                      |
+| bloclistener            | `BlocListener` widget                     |
+| multibloclistener       | `MultiBlocListener` widget                |
+| blocconsumer            | `BlocConsumer` widget                     |
+| bloc                    | `context<SubjectBloc>.bloc()`             |
+| repository              | `context.repository<SubjectRepository>()` |
+| blocobserver            | `BlocObserver` class                      |
 
 ## Starware
 

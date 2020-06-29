@@ -1,6 +1,6 @@
 {
   "BlocProvider": {
-    "prefix": "bloc-provider",
+    "prefix": "blocprovider",
     "body": [
       "BlocProvider(",
       "\tcreate: (context) => ${1:Subject}Bloc(),",
@@ -9,7 +9,7 @@
     ]
   },
   "MultiBlocProvider": {
-    "prefix": "multi-bloc-provider",
+    "prefix": "multiblocprovider",
     "body": [
       "MultiBlocProvider(",
       "\tproviders: [",
@@ -25,7 +25,7 @@
     ]
   },
   "RepositoryProvider": {
-    "prefix": "repository-provider",
+    "prefix": "repositoryprovider",
     "body": [
       "RepositoryProvider(",
       "\tcreate: (context) => ${1:Subject}Repository(),",
@@ -34,7 +34,7 @@
     ]
   },
   "MultiRepositoryProvider": {
-    "prefix": "multi-repository-provider",
+    "prefix": "multirepositoryprovider",
     "body": [
       "MultiRepositoryProvider(",
       "\tproviders: [",
@@ -50,7 +50,7 @@
     ]
   },
   "BlocBuilder": {
-    "prefix": "bloc-builder",
+    "prefix": "blocbuilder",
     "body": [
       "BlocBuilder<${1:Subject}Bloc, $1State>(",
       "\tbuilder: (context, state) {",
@@ -60,7 +60,7 @@
     ]
   },
   "BlocListener": {
-    "prefix": "bloc-listener",
+    "prefix": "bloclistener",
     "body": [
       "BlocListener<${1:Subject}Bloc, $1State>(",
       "\tlistener: (context, state) {",
@@ -71,7 +71,7 @@
     ]
   },
   "MultiBlocListener": {
-    "prefix": "multi-bloc-listener",
+    "prefix": "multibloclistener",
     "body": [
       "MultiBlocListener(",
       "\tlisteners: [",
@@ -91,7 +91,7 @@
     ]
   },
   "BlocConsumer": {
-    "prefix": "bloc-consumer",
+    "prefix": "blocconsumer",
     "body": [
       "BlocConsumer<${1:Subject}Bloc, $1State>(",
       "\tlistener: (context, state) {",
@@ -112,7 +112,7 @@
     "body": "context.repository<${1:Subject}Repository>()"
   },
   "BlocObserver": {
-    "prefix": "bloc-observer",
+    "prefix": "blocobserver",
     "body": [
       "import 'package:bloc/bloc.dart';",
       "",
