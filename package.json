@@ -2,7 +2,7 @@
   "name": "bloc-snippets",
   "displayName": "Bloc Snippets",
   "description": "Dart snippets for the Bloc state management library.",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "publisher": "zepfietje",
   "author": {
     "name": "Zep Fietje",
