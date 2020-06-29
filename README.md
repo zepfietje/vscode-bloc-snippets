@@ -28,7 +28,7 @@ $ code --install-extension zepfietje.bloc-snippets
 | bloc-consumer             | `BlocConsumer` widget                     |
 | bloc                      | `context<SubjectBloc>.bloc()`             |
 | repository                | `context.repository<SubjectRepository>()` |
-| bloc-delegate             | `BlocDelegate` class                      |
+| bloc-observer             | `BlocObserver` class                      |
 
 ## Starware
 

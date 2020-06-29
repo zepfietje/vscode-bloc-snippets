@@ -111,12 +111,12 @@
     "prefix": "repository",
     "body": "context.repository<${1:Subject}Repository>()"
   },
-  "BlocDelegate": {
-    "prefix": "bloc-delegate",
+  "BlocObserver": {
+    "prefix": "bloc-observer",
     "body": [
       "import 'package:bloc/bloc.dart';",
       "",
-      "class ${1:My}BlocDelegate extends BlocDelegate {",
+      "class ${1:My}BlocObserver extends BlocObserver {",
       "\t@override",
       "\tvoid onEvent(Bloc bloc, Object event) {",
       "\t\t${2:// TODO: implement onEvent}",
