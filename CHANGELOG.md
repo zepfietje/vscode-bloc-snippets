@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.2.0] - 2020-07-01
+
+### Added
+
+- State and event snippets.
+
 ## [1.1.0] - 2020-06-29
 
 ### Changed
@@ -19,6 +25,7 @@
 
 - Bloc snippets.
 
+[1.2.0]: https://github.com/zepfietje/vscode-bloc-snippets/releases/tag/1.2.0
 [1.1.0]: https://github.com/zepfietje/vscode-bloc-snippets/releases/tag/1.1.0
 [1.0.1]: https://github.com/zepfietje/vscode-bloc-snippets/releases/tag/1.0.1
 [1.0.0]: https://github.com/zepfietje/vscode-bloc-snippets/releases/tag/1.0.0
