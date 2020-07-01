@@ -29,6 +29,13 @@ $ code --install-extension zepfietje.bloc-snippets
 | bloc                    | `context<SubjectBloc>.bloc()`             |
 | repository              | `context.repository<SubjectRepository>()` |
 | blocobserver            | `BlocObserver` class                      |
+| blocstate               | `SubjectVerbState` class                  |
+| blocstateinitial        | `SubjectInitial` class                    |
+| blocstateinprogress     | `SubjectVerbInProgress` class             |
+| blocstatesuccess        | `SubjectVerbSuccess` class                |
+| blocstatefailure        | `SubjectVerbFailure` class                |
+| blocevent               | `SubjectNounVerb` class                   |
+| bloceventstarted        | `SubjectStarted` class                    |
 
 ## Starware
 
